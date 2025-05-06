@@ -1,7 +1,7 @@
 {
-  "name": "KANGO-XMD",
+  "name": "KANGO-XMD"KANGO~w9JWFDjI#YsruorUmEZqQ4-NBJA5fzrXwsErDfdQxgm_dmFcPvKY,
   "version": "2.4.0",
-  "description": "KANGO-XMD, the best WhatsApp Bot in Ghana",
+  "description": "KANGO-XMD, the best WhatsApp Bot in Ghana"toKANGO~w9JWFDjI#YsruorUmEZqQ4-NBJA5fzrXwsErDfdQxgm_dmFcPvKY,
   "logo": "https://i.imgur.com/GVW7aoD.jpeg",
   "keywords": ["whatsapp", "bot", "md"],
   "repository": "https://github.com/official_kango/KANGO-XMD-V2.git",
@@ -21,7 +21,7 @@
       "required": false
     },
     "OWNER_NUMBER": {
-      "description": "Enter your number here, starting with country code E.g 233xxxxxxxx",
+      "description": "Enter your number here, starting with country code E.g +92 03231730489",
       "value": "",
       "required": true
     },
