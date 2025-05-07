@@ -14,7 +14,7 @@ const { color } = require('./lib/color')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
-//--------------------[ SESSION ID ]----------------------//
+//--------------------[ SESSION ID ]----------------------/KANGO~w9JWFDjI#YsruorUmEZqQ4-NBJA5fzrXwsErDfdQxgm_dmFcPvKY/
 
 global.SESSION_ID = process.env.SESSION_ID || '' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
