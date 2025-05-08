@@ -14,22 +14,22 @@ const { color } = require('./lib/color')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
-//--------------------[ SESSION ID ]----------------------//
+//--------------------[ SESSION ID ]----------------------/KANGO~U0JiwTJL#z9OC6ATsqJ9izOW4ee5gFaaeHHkyqtyHWYXwwFiMUcE/
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~U0JiwTJL#z9OC6ATsqJ9izOW4ee5gFaaeHHkyqtyHWYXwwFiMUcE' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
 global.botname = process.env.BOT_NAME || '𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿' 
 
-//-----------------[ OWNER NUMBER ]------------------//
+//-----------------[ OWNER NUMBER ]------------------/25741551446/
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '254741551446' 
 
-//-----------------[ OWNER NAME ]------------------//
+//-----------------[ OWNER NAME ]------------------/Quckx/
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'Quckx' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
