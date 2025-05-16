@@ -1,13 +1,13 @@
 /*
-  project_name : 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 Bot
+  project_name : VIKING-𝙓𝙈𝘿 Bot
   Version : 2.4.0
-  Owner : Hector Manuel
+  Owner : VIKING Manuel
   Do Not Clone 
 
 
 */
 
-//----------------------[ 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿]----------------------//
+//----------------------[ VIKING-𝙓𝙈𝘿]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -17,23 +17,22 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 //--------------------[ SESSION ID ]----------------------//
 
 global.SESSION_ID = process.env.SESSION_ID || '' 
-//Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
-
+//8d8c27b9dedffb81b98d4ced67152b11bb7c3f37
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || '𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿' 
+global.botname = process.env.BOT_NAME || 'VIKING-𝙓𝙈𝘿' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '50943626477' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'VIKING Manuel' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿" 
+global.packname = process.env.STICKER_PACK_NAME || "VIKING-𝙓𝙈𝘿" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
