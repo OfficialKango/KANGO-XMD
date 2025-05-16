@@ -1,5 +1,5 @@
 /*
-  project_name : 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 Bot
+  project_name : @dmin_personal_assistant
   Version : 2.4.0
   Owner : Hector Manuel
   Do Not Clone 
@@ -7,7 +7,7 @@
 
 */
 
-//----------------------[ 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿]----------------------//
+//----------------------[ @dmin_peronal_assistant]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -16,28 +16,28 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 //--------------------[ SESSION ID ]----------------------//
 
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'KANGO~TNUyRYjK#lyO-yqrAjnLlsdZZvK9jLh7ZHoR4j3NKUmHxSoRVRcE' 
 //Enter your 𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿 session id here; must start with KANGO~
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || '𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿' 
+global.botname = process.env.BOT_NAME || '@dmin_personal_assistant' 
 
-//-----------------[ OWNER NUMBER ]------------------//
+//-----------------[ MY OWNER🙃 ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '2349162315376' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'JOSEPH' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "𝙆𝘼𝙉𝙂𝙊-𝙓𝙈𝘿" 
+global.packname = process.env.STICKER_PACK_NAME || "@dmin" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "JOSEPH" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
