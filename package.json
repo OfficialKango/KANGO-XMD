@@ -1,7 +1,7 @@
 {
-  "name": "KANGO-XMD",
+  "name": "@dmin_personal_assistant",
   "version": "2.4.1",
-  "description": "The best Whatsapp bot im Ghana",
+  "description": "The best Whatsapp bot",
   "main": "index.js",
   "engines": {
     "node": ">= 20.x",
@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Hector Manuel",
+  "author": "Joseph",
   "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys@6.7.9",
