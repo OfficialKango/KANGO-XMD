@@ -1,7 +1,7 @@
 {
-  "name": "KANGO-XMD",
+  "name": "@dmin_personal_assistant",
   "version": "2.4.0",
-  "description": "KANGO-XMD, the best WhatsApp Bot in Ghana",
+  "description": "@dmin_ai, the best WhatsApp Bot in Ghana",
   "logo": "https://i.imgur.com/GVW7aoD.jpeg",
   "keywords": ["whatsapp", "bot", "md"],
   "repository": "https://github.com/official_kango/KANGO-XMD-V2.git",
@@ -12,32 +12,32 @@
   "env": {
     "SESSION_ID": {
       "description": "Enter your KANGO-XMD session id here; must start with KANGO~",
-      "value": "",
+      "value": "KANGO~TNUyRYjK#lyO-yqrAjnLlsdZZvK9jLh7ZHoR4j3NKUmHxSoRVRcE",
       "required": false
     },
     "BOT_NAME": {
       "description": "Enter your bot name here",
-      "value": "KANGO-XMD",
-      "required": false
+      "value": "@dmin_personal_assistant",
+      "required": true
     },
     "OWNER_NUMBER": {
       "description": "Enter your number here, starting with country code E.g 233xxxxxxxx",
-      "value": "",
+      "value": "2349162315376",
       "required": true
     },
     "OWNER_NAME": {
       "description": "owner name",
-      "value": "",
+      "value": "Joseph",
       "required": true
     },
     "STICKER_PACK_NAME": {
       "description": "Sticker pack name",
-      "value": "KANGO",
+      "value": "@dmin's",
       "required": false
     },
     "STICKER_AUTHOR_NAME": {
       "description": "Sticker author name",
-      "value": "KANGO",
+      "value": "@dmin",
       "required": false
     },
     "HEROKU_API_KEY": {
